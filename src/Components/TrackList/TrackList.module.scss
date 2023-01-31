@@ -1,0 +1,120 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1040px;
+    height: auto;
+
+    .tracklist {
+        margin: 0 auto;
+        width: 750px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 200px;
+        margin-bottom: 30px;
+        margin-top: 70px;
+        
+    
+        h1 {
+            margin: 0 auto;
+            font-size: 26px;
+            text-shadow: 4px 4px 8px #000000;
+        }
+    
+        .track {
+            margin: 0px auto;
+            display: flex;
+            width: 560px;
+            box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    }
+    
+    .buttons {
+        display: flex;
+        position: absolute;
+        gap: 880px;
+        .btn_right {
+            background-image: url('../../../src/Images/arrow_right.png');
+            background-size: cover;
+            background-color:rgba(0, 0, 0, 0);
+            margin-top: 240px;
+            width: 70px;
+            height: 70px;
+            border: none;
+        }
+        .btn_left {
+            background-image: url('../../../src/Images/arrow_left.png');
+            background-size: cover;
+            background-color:rgba(0, 0, 0, 0);
+            margin-top: 240px;
+            width: 70px;
+            height: 70px;
+            border: none;
+        }
+    }
+
+}
+
+.gapCorrection {
+    padding-bottom: 300px;
+}
+
+@media all and (max-width: 1080px) {
+    .container {
+        margin: 0 auto;
+        width: auto;
+        gap: 30px;
+
+        .tracklist {
+            width: 500px;
+
+            .track {
+                width: 400px;
+            }
+        }
+
+        .buttons {
+            gap: 600px;
+        }
+    }
+}
+
+@media all and (max-width: 800px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+
+        .tracklist {
+            display: flex;
+            gap: 200px;
+            width: 350px;
+            order: 1;
+            margin-top: 35px;
+            margin-bottom: 0px;
+            .track {
+                width: 300px;
+            }
+        }
+        .buttons {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            margin-top: -50px;
+            gap: 50px;
+            order: 2;
+        }
+    }
+    .gapCorrection {
+        margin-top: -130px;
+        margin-bottom: 50px;
+        padding-bottom: 0px;
+    }
+}
+
+
+
+
+

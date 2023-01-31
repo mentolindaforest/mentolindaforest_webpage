@@ -1,0 +1,42 @@
+.categories {
+    //position: relative;
+    padding: 15px 100px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(246, 251, 244, 0.75);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 10px 0 rgba(0, 0, 0, 0.7);
+    
+
+    li {
+        list-style: none;
+        margin: 0 20px;
+        font-size: 25px;
+        font-family: 'Helvetica Neue';
+    }
+
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 640px) {
+    .categories {
+        padding: 15px 10px;
+        margin: 0 auto;
+
+        li {
+            font-size: 21px;
+            margin: 0 10px;
+        }
+    }
+}
+
