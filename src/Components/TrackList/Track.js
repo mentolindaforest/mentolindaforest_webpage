@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { useSpring, animated } from "react-spring";
 import ReactPlayer from 'react-player';
 
-
 const Track = ({ link }) => {
     const [show, setShown] = useState(false);
     
