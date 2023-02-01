@@ -7,14 +7,16 @@ const NavBar = () => {
 
     let navLink = {
         textDecoration: "none",
-        fontWeight: 400,
+        fontWeight: 300,
         color: "rgb(61, 86, 86)",
+        fontFamily: "Montserrat"
     };
 
     let navLinkActive = {
         textDecoration: "none",
         fontWeight: 900,
-        color: "rgb(61, 86, 86)"
+        color: "rgb(61, 86, 86)",
+        fontFamily: "Montserrat"
     };
 
     return (
@@ -63,12 +65,6 @@ const NavBar = () => {
             </ul>
         </div>
         )
-
-
-
 }
-
-
-
 
 export default NavBar;
