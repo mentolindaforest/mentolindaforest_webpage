@@ -11,6 +11,11 @@ const Tracks = () => {
         {
             key: uuidv4(),
             content: 
+                <Track link="https://soundcloud.com/mentolindaforest/further-further" />
+        },
+        {
+            key: uuidv4(),
+            content: 
                 <Track link="https://soundcloud.com/mentolindaforest/mentol-gund-mindsqueeze" />
         },
         {
@@ -42,7 +47,7 @@ const Tracks = () => {
                 offset={1}
                 showArrows={false}
                 header={"own tracks:"}
-                goToSlide={5}        
+                goToSlide={6}        
             />
         </div>
 

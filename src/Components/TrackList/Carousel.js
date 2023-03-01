@@ -32,7 +32,6 @@ function Carrousel(props) {
 
     return (
         <div className={styles.container}>
-        
             <div className={styles.tracklist}>
                 <h1>{header}</h1>
                 <Carousel 

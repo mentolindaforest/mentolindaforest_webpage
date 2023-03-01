@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './Bio.module.scss';
 import bioImage from '../../Images/bioimage.jpeg';
 
-
 const Bio = () => (
     <div className={styles.bioContainer}>
         <img
